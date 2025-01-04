@@ -1,0 +1,36 @@
+.box-model{
+    font-size: 100px;
+    margin: 10px;
+    border: 20px solid;
+    padding: 10;
+}
+#idSEg{
+    text-align: center;
+}
+
+ul{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: px;
+    display: flex;
+    padding: 10px 20px;
+    margin: 0;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(237, 237, 237);
+}
+li{
+    cursor: pointer;
+}
+li:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(158, 156, 156);
+    padding: 3px;
+    text-underline-offset: 10px;
+    
+
+}
